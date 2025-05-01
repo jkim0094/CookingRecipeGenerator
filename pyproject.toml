@@ -1,0 +1,50 @@
+[project]
+name = "nlp-project"
+version = "0.1.0"
+description = "NLP with PyTorch"
+requires-python = "==3.10.*"
+dependencies = [
+  "torch==2.2.2",
+  "torchtext==0.17.2",
+  "torchaudio==2.2.2",
+  "torchvision==0.17.2",
+  "spacy==3.8.5",
+  "matplotlib",
+  "nltk",
+  "tqdm",
+  "pandas",
+  "numpy<2.0",
+  "filelock",
+  "pillow",  
+  "pyparsing",
+  "cycler",
+  "ipykernel",
+  "jupyter",
+  "fsspec",
+  "jinja2",
+  "networkx",
+  "sympy",
+  "catalogue",
+  "cymem",
+  "langcodes",
+  "murmurhash",
+  "preshed",
+  "pydantic>=1.7.4,<2.0.0",
+  "typing_extensions",
+  "requests",
+  "spacy-legacy",
+  "spacy-loggers",
+  "confection",
+  "srsly",
+  "thinc<8.4.0,>=8.3.4",
+  "typer",
+  "wasabi",
+  "weasel",
+  "pytz",
+  "tzdata",
+  "gdown"
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv"
