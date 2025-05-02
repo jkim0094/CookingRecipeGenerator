@@ -1,8 +1,9 @@
 # 모든 파일 무시
 *
+ass2(desktop)(backup).ipynb
 
 # .ipynb 파일은 제외 (즉, 추적)
-!*.ipynb
+
 !.gitignore
 !README.md
 !pyproject.toml
