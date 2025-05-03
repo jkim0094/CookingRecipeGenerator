@@ -17,7 +17,6 @@ dependencies = [
     "spacy==3.5.3",
     "torch==2.2.0",
     "torchtext==0.17.0",
-    "tqdm>=4.67.1",
 ]
 
 [tool.uv.sources]
