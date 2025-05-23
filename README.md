@@ -60,8 +60,3 @@ Models are evaluated using:
 - Tu et al., 2016: [Modeling Coverage for Neural Machine Translation](https://aclanthology.org/P16-1008/)
 - Vinyals et al., 2016: [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/pdf/1511.06391)
 
-## Notes
-
-- All models are implemented in PyTorch.
-- The test set is used for evaluation only and is not involved in training or preprocessing.
-- Coverage, copy, attention, and checklist mechanisms are implemented manually.
